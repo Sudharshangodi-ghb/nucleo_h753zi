@@ -1,3 +1,9 @@
+/*
+ * Copyright (c) 2026 Sudharshan Reddy Godi
+ *
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
 #include "gpio.h"
 
 static void Gpio_EnablePortClock(GPIO_TypeDef *port)

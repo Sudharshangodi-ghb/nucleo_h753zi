@@ -1,3 +1,7 @@
+# Copyright (c) 2026 Sudharshan Reddy Godi
+#
+# SPDX-License-Identifier: Apache-2.0
+
 mach create "nucleo_h753zi"
 
 machine LoadPlatformDescription @/home/sudharshanreddy/tools/renode/platforms/boards/nucleo_h753zi.repl

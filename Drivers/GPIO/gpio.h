@@ -1,3 +1,9 @@
+/*
+ * Copyright (c) 2026 Sudharshan Reddy Godi
+ *
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
 #ifndef GPIO_H
 #define GPIO_H
 

@@ -1,4 +1,8 @@
 
+# Copyright (c) 2026 Sudharshan Reddy Godi
+#
+# SPDX-License-Identifier: Apache-2.0
+
 # Project
 TARGET      = nucleo_h753zi
 BUILD_DIR   = build
