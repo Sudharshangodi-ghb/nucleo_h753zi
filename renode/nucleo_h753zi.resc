@@ -1,0 +1,9 @@
+mach create "nucleo_h753zi"
+
+machine LoadPlatformDescription @/home/sudharshanreddy/tools/renode/platforms/boards/nucleo_h753zi.repl
+
+cpu VectorTableOffset 0x08000000
+
+sysbus LoadELF @/home/sudharshanreddy/baremetal/nucleo_h753zi/build/nucleo_h753zi.elf
+
+showAnalyzer sysbus.usart3
