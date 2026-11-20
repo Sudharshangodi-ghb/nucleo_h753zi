@@ -1,16 +1,13 @@
-# STM32H753ZI Reference Documents
+# Board and MCU references
 
-This folder contains the reference manuals, datasheets, and schematics required for the STM32H753ZI bare-metal Ethernet driver development.
+The PDFs in this directory are the primary references for register settings,
+board routing, and electrical limits.
 
-| Document | Purpose |
+| File | Use |
 |---|---|
-| `RM0433` | STM32H7 Reference Manual |
-| `UM2407` | NUCLEO-H753ZI User Manual |
-| `DS_stm32h753zi.pdf` | STM32H753 MCU Datasheet |
-| `DS_LAN8742_00001989A.pdf` | LAN8742A PHY Datasheet |
-| `MB1364 C01 schematic` | Board schematic, revision C01 |
-| `MB1364 E01 schematic` | Board schematic, revision E01 |
-
-## Usage
-
-Refer to these documents during peripheral configuration, Ethernet MAC development, PHY communication, pin configuration, and board-level hardware analysis.
+| [RM0433 reference manual](rm0433-stm32h742-stm32h743-753-and-stm32h750-value-line-advanced-armbased-32bit-mcus-stmicroelectronics.pdf) | STM32H7 registers and peripheral operation |
+| [UM2407 user manual](um2407-stm32h7-nucleo144-boards-mb1364-stmicroelectronics.pdf) | NUCLEO-H753ZI setup and board routing |
+| [STM32H753 datasheet](DS_stm32h753zi.pdf) | MCU electrical and memory specifications |
+| [LAN8742A datasheet](DS_LAN8742_00001989A.pdf) | Ethernet PHY registers and behavior |
+| [MB1364 C01 schematic](mb1364-h753zi-c01-schematic.pdf) | Board revision C01 connections |
+| [MB1364 E01 schematic](mb1364-h753zi-e01-schematic.pdf) | Board revision E01 connections |
